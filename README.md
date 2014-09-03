@@ -1,4 +1,4 @@
 hogas
 =====
 
-solucion web para el control de gastos
+solucion web para gastos
