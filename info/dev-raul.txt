@@ -1,16 +1,28 @@
 06/09/2014 sprint
 
-//sistema operativo
-1. debian wheezy de distribucion linux
+1.sistema operativo
 
-//entorno de desarrollo
-2. servidor apache,lenguaje php,base de datos mysql y composer
+ - debian wheezy de distribucion linux
 
-//repositorio
-3. repositorio hitgub
+2.entorno de desarrollo
 
-//nombre del proyecto
-4. proyecto hogas
+ - servidor apache,lenguaje php,base de datos mysql y composer
 
-//solucion
-5. solucion web para gastos
+3.repositorio
+
+ - repositorio github
+
+4.nombre del proyecto
+
+ -  proyecto hogas
+
+5.solucion
+
+ - solucion web para gastos
+
+6.git
+
+ - instalacion
+ - configuracion
+ - clonacion de proyecto a entorno local
+ - commit,merge y push para sincronizar repositorio
