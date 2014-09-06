@@ -1,0 +1,16 @@
+06/09/2014 sprint
+
+//sistema operativo
+1. debian wheezy de distribucion linux
+
+//entorno de desarrollo
+2. servidor apache,lenguaje php,base de datos mysql y composer
+
+//repositorio
+3. repositorio hitgub
+
+//nombre del proyecto
+4. proyecto hogas
+
+//solucion
+5. solucion web para gastos
