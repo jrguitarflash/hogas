@@ -1,4 +1,15 @@
-06/09/2014 sprint
+/*****************
+ * 07/09/2014 sprint
+ */
+
+1.symfony
+
+ - instalacion de framework symfony 2.5.x
+ - revision de documentacion de symfony
+
+/****************
+ * 06/09/2014 sprint
+ */
 
 1.sistema operativo
 
