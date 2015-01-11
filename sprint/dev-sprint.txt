@@ -1,0 +1,47 @@
+/*--------------------------*/
+	# 10/01/2015 sprint 3
+/*--------------------------*/
+
+a. controlador y vista login,home,usuario
+b. css y js hogas
+c. view base con bloques de usuario,niveles y menu
+
+/*-------------------------*/
+ 	# 07/09/2014 sprint 2
+/*-------------------------*/
+
+a. symfony
+
+ - instalacion de framework symfony 2.5.x
+ - revision de documentacion de symfony
+
+/*-------------------------*/
+ 	# 06/09/2014 sprint 1
+/*-------------------------*/
+
+a. sistema operativo
+
+ - debian wheezy de distribucion linux
+
+b. entorno de desarrollo
+
+ - servidor apache,lenguaje php,base de datos mysql y composer
+
+c. repositorio
+
+ - repositorio github
+
+d. nombre del proyecto
+
+ -  proyecto hogas
+
+e. solucion
+
+ - solucion web para gastos
+
+f. git
+
+ - instalacion
+ - configuracion
+ - clonacion de proyecto a entorno local
+ - commit,merge y push para sincronizar repositorio
