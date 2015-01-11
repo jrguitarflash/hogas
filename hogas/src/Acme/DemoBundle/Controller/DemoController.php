@@ -53,4 +53,38 @@ class DemoController extends Controller
 
         return array('form' => $form->createView());
     }
+
+    /**
+     *@Route("/home",name="_demo_home")
+     *@Template()
+     *
+    */
+
+    public function homeAction()
+    {
+        return $this->render("AcmeDemoBundle:Demo:hogas/home.html.twig");
+    }
+
+    /**
+     *@Route("/login",name="_demo_login")
+     *@Template
+     *
+    */
+
+    public function loginAction()
+    {
+        return $this->render("AcmeDemoBundle:Demo:hogas/login.html.twig");
+    }
+
+    /**
+     *@Route("/usuario",name="_demo_usuario")
+     *@Template
+     *
+    */
+
+    public function usuarioAction()
+    {
+        return $this->render("AcmeDemoBundle:Demo:hogas/usuario.html.twig");
+    }
+
 }

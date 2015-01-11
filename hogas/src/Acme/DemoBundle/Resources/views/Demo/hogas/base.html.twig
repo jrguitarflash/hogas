@@ -1,0 +1,89 @@
+<!html DOCTYPE>
+<html>
+		<head>
+			<script src="{{ asset('bundles/acmedemo/js/hogas.js') }}" type="text/javascript" ></script>
+			<link rel="stylesheet" href="{{ asset('bundles/acmedemo/css/hogas.css') }}" />
+			<title>Modulo Gastos</title>
+		</head>
+	<body>
+		
+		<h1>Hogas - Modulo de gastos</h1>
+
+		{% block usuario %}
+			<div>
+				<label>Usuario:</label>
+				<span>----</span>
+				<label>Empresa:</label>
+				<span>----</span>
+				<label>Rol:</label>
+				<span>----</span>
+			</div>
+		{% endblock %}
+
+		<h3>
+			{% block menu_titulo %}
+			{% endblock %}
+		</h3>
+
+		{% block menu %}
+			
+			<ul>
+				<li><a href="home" >Inicio</a></li>
+				<li>
+					<a href="#" >Usuarios</a>
+					<ul>
+						<li><a href="usuario" >Usuarios</a>
+						<li><a href="#" >Roles</a></li>
+						<li><a href="#" >Permisos</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#" >Empresas</a>
+					<ul>
+						<li><a href="#" >Empresas</a></li>
+						<li><a href="#" >Trabajadores</a></li>
+						<li><a href="#" >Contactos</a></li>
+						<li><a href="#" >Areas</a></li>
+						<li><a href="#" >Cargos</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#" >Personas</a>
+					<ul>
+						<li><a href="#" >Personas</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#" >Gastos</a>
+					<ul>
+						<li><a href="#" >Gastos</a></li>
+						<li><a href="#" >Ingresos</a></li>
+						<li><a href="#" >Reporte de gastos</a></li>
+					</ul>
+				</li>
+				<li><a href="#" id="hg_salir" >Salir</a>
+			</ul>
+
+		{% endblock %}
+
+		{% block nivel %}
+
+			<div>
+				<span><a href="#" id="hg_nivel" >a>>b>>c</a></span>
+			</div>
+
+		{% endblock %}
+
+		<h3>
+			{% block contenido_titulo %}
+			{% endblock %}
+		</h3>
+
+		{% block contenido %}
+	
+		{% endblock %}
+
+
+
+	</body>
+</html>

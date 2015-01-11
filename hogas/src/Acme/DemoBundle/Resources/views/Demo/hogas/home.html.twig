@@ -1,0 +1,49 @@
+{% extends "AcmeDemoBundle::Demo/hogas/base.html.twig" %}
+
+{% block menu_titulo "Menu titulo" %}
+
+{% block contenido_titulo "Contenido titulo" %}
+
+{% block contenido %}
+
+	<h5>Contenido Resumen de gastos anual-mes</h5>
+
+	<label>año</label>
+	<select>
+		<option>2015</option>
+	</select>
+	<label>mes</label>
+	<select>
+		<option>todos</option>
+		<option>enero</option>
+	</select>
+	
+	<table>
+		<thead>
+			<tr>
+				<td>mes</td>
+				<td>ingreso</td>
+				<td>gasto</td>
+				<td>saldo</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>enero</td>
+				<td>700</td>
+				<td>500</td>
+				<td>200</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td>total</td>
+				<td>---</td>
+				<td>---</td>
+				<td>---</td>
+			</tr>
+		</tfoot>
+	</table>
+
+
+{% endblock %}
